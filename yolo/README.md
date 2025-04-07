@@ -4,7 +4,7 @@
 
 Необходимые библиотеки:
 - `ultralytics`
-- `cv2`
+- `opencv-python`
 
 Установка:
 
