@@ -19,6 +19,8 @@ pip install <название>
 3. Обучить модель
 4. Протестировать на тестовых изображениях
 
+Ссылка на датасет: [dataset](https://github.com/the-hwk/GSTU-multilayer-neural-networks-and-pattern-recognition/blob/main/yolo/dataset.zip)
+
 #### Написание кода
 
 ```Python
