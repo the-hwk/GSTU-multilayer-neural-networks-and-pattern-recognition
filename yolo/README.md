@@ -76,6 +76,9 @@ results = model(img_path, save=False, show=False)
 ```
 
 ```Python
+# Загрузим оригинальное изображение
+img = cv2.imread(img_path)
+
 # Отобразим box (прямоугольник) на картинке
 for result in results:
     boxes = result.boxes
