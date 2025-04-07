@@ -1,0 +1,4 @@
+yolo/dataset
+yolo/runs
+yolo/yolov8n.pt
+yolo/main.py
