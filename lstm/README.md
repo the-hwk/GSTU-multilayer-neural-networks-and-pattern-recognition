@@ -30,6 +30,20 @@ https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-citie
 
 Нижеприведенный код является небольшим примером. Внимательно изучите его.
 
+```Python
+# Импорт необходимых библиотек
+import numpy as np
+import pandas as pd
+
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, Dropout, Input
+from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
+from scipy.signal import savgol_filter
+
+import matplotlib.pyplot as plt
+```
+
 1. Загрузить набор данных
 ```Python
 # Загружаем набор данных
